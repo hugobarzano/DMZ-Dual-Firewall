@@ -18,12 +18,12 @@ Servidor Web: LAMP, FTP y SSH
 
 Necesitaremos instalar un mínimo 6 máquinas virtuales, de las cuales habrá:
 
-2 Firewall
-1 Cliente simulado de la red externa
-1 Servidor de Bases de Datos
-1 Servidor de Aplicaciones
-1 Servidor de Respaldo (opcional)
-1 Máquina de la red interna
+- 2 Firewall
+- 1 Cliente simulado de la red externa
+- 1 Servidor de Bases de Datos
+- 1 Servidor de Aplicaciones
+- 1 Servidor de Respaldo (opcional)
+- 1 Máquina de la red interna
 
 
 ![](http://i.imgur.com/Gj6QjM3.png)
@@ -31,12 +31,12 @@ Necesitaremos instalar un mínimo 6 máquinas virtuales, de las cuales habrá:
 
 Una vez estemos instalando las máquinas, cuando nos aparezca esta pantalla deberemos de elegir unos programas u otros dependiendo de la máquina que sea:
 
--Los firewall necesitan instalar SSH
--El cliente de la red externa necesita FTP y SSH.
--El servidor de Bases de Datos PostgreSQL database, SSH y FTP.
--El servidor de aplicaciones LAMP, FTP y SSH.
--El servidor de respaldo LAMP,FTP, SSH y PostgreSQL database.
--La máquina de la red interna necesita FTP,SSH.
+- Los firewall necesitan instalar SSH
+- El cliente de la red externa necesita FTP y SSH.
+- El servidor de Bases de Datos PostgreSQL database, SSH y FTP.
+- El servidor de aplicaciones LAMP, FTP y SSH.
+- El servidor de respaldo LAMP,FTP, SSH y PostgreSQL database.
+- La máquina de la red interna necesita FTP,SSH.
 
 
 
