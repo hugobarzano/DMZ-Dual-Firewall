@@ -33,11 +33,13 @@ lo comprobamos ejecutando ifconfig:
 Añadir aquí las nuevas capturas para mysql
 
 Para indicarle al servidor la red y su defaul gateway de manera automática al inicio de la máquina, es necesario editar el archivo /etc/rc.local y dejarlo como esta en la siguiente figura:
+
 ![imagen](https://github.com/hugobarzano/DMZ-Dual-Firewall/blob/master/ServerApp/ifconfig_ServerApp.png?raw=true)
 
 **Configuración ServerWeb**
 
 La máquina que desempeña el papel de servidor web tiene la siguiente configuración en su archivo /etc/network/interfaces:
+
 ![imagen](https://github.com/hugobarzano/DMZ-Dual-Firewall/blob/master/ServerWeb/configuracionRed_ServerWeb.png?raw=true)
 
 lo comprobamos con ifconfig:
@@ -46,18 +48,25 @@ lo comprobamos con ifconfig:
 
 En esta máquina, instalamos un servidor LAMP mediante los siguientes comandos:
 - apache2
+
 ![imagen](https://github.com/hugobarzano/DMZ-Dual-Firewall/blob/master/ServerWeb/instalacionApache2_ServerWeb.png?raw=true)
+
 - MYSQL
+
 ![imagen](https://github.com/hugobarzano/DMZ-Dual-Firewall/blob/master/ServerWeb/instalacionMYSQL_ServerWeb.png?raw=true)
+
 - PHP5
+
 ![imagen](https://github.com/hugobarzano/DMZ-Dual-Firewall/blob/master/ServerWeb/instalacionPHP5_ServerWeb.png?raw=true)
 
 
 También es interesante la instalación de ssh y el servidor ftp:
+
 ![imagen](https://github.com/hugobarzano/DMZ-Dual-Firewall/blob/master/ServerWeb/instalacionSSH_ServerWeb.png?raw=true)
 ![imagen](https://github.com/hugobarzano/DMZ-Dual-Firewall/blob/master/ServerWeb/instalacionVSFTPD_ServerWeb.png?raw=true)
 
 Finalmente para automatizar el proceso de configuración de las redes, editamos el archivo /etc/rc.local y lo dejamos como se muestra en la figura:
+
 ![imagen](https://github.com/hugobarzano/DMZ-Dual-Firewall/blob/master/ServerWeb/rc_local_ServerWeb.png?raw=true)
 
 
